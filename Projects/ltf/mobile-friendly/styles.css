@@ -1,0 +1,88 @@
+/* Reset default margin and padding */
+body, .heading1, .heading2, .paragraph {
+    margin: 0;
+    padding: 0;
+}
+
+/* Apply styles to header */
+.header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+}
+
+/* Apply styles to container */
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Apply styles to images */
+.image {
+    max-width: 100%;
+    height: auto;
+    margin: 10px 0;
+}
+
+/* Apply styles to video */
+.video {
+    max-width: 100%;
+}
+
+/* Apply styles to table */
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+.table, .table-header, .table-cell {
+    border: 1px solid #ccc;
+}
+
+.table-header, .table-cell {
+    padding: 10px;
+    text-align: left;
+}
+
+/* Apply styles to unordered list */
+.ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.ul li {
+    margin-bottom: 10px;
+}
+
+/* Apply styles to links */
+.link {
+    color: #0004ff;
+    text-decoration: none;
+}
+
+/* Responsive styles for smaller screens */
+@media (max-width: 768px) {
+    .container {
+        margin: 10px;
+        padding: 10px;
+    }
+
+    .image {
+        width: 100%;
+    }
+
+    .table, .table-header, .table-cell {
+        font-size: 14px;
+    }
+
+    /* Add responsive styles for video */
+    .video {
+        width: 200px;
+    }
+}
